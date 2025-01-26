@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body { 
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+ 
+  .container {
+    width : 1112px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;  
+    padding-bottom: 10px;
+  }
+  
+  .header1 h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .header1 p {
+    font-size: 1.1em;
+    color: #777;
+  }
+  
+  .header1 a {
+    color: #333;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  .header1 a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact information */
+  .header2 {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .header2 p {
+    margin: 5px 0;
+  }
+  
+  .header2 a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .header2 a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styling */
+  .section p {
+    line-height: 1.6;
+    padding: 0.1rem;
+  }
+  
+  h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    padding-left: 0;
+  }
+  
+  ul li {
+    font-size: 0.9rem;
+    color: #555;
+    margin-left: 2rem;
+ 
+  }
+
+  .section-Education .education li {
+    list-style: none;
+    margin-left: 0;
+  }
+  
+
+  .edu{
+    padding-left: 1rem;
+    line-height: 10px;
+  }
+
+  ul li span {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  /* Education Section */
+  .section-Education ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Skills Section */
+  .section ul li {
+    margin-bottom: 10px;
+  }
+
+  .project-name {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Links for Projects */
+  section p a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  section p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Date Styling */
+  .date {
+    font-style: italic;
+    color: #777;
+   
+  }
+  
